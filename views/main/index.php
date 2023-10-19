@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <?php
 require_once 'views/head.php';
 ?>
 
 <body>
   <!-- Se genera la carga del MENU -->
-  <?php require 'views/header.php' ?>
-
-
-  <!-- sE GENERRA EL CONTENIDO PRINCIPAL DE SISTEMA  -->
-  <div id="contenerdor_carga" class="contenerdor_carga">
-    <div id="carga" class="carga">
-      <!-- preloader los estilos estanb guiardados en app.css -->
-    </div>
-  </div>
+  <!-- Se carga Preloader -->
+  <?php
+  require 'views/header.php';
+  require 'views/preloader.php';
+  ?>
 
   <div class="hero">
     <div class="slider">

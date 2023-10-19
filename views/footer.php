@@ -41,7 +41,7 @@ include_once 'views/head.php';
         <div class="col-3 col-md-6 col-sm-12">
           <div class="contact">
             <h3 class="contact-header">
-              <a href="index.php" class="logo"><img src="./public/images/PodologiaDx-100x100.png" alt="" width="80px"></a>PodologíaDx.org
+              <a href="/" class="logo"><img src="./public/images/PodologiaDx-100x100.png" alt="" width="80px"></a>PodologíaDx.org
             </h3>
             <ul class="contact-socials">
               <li>
@@ -67,7 +67,7 @@ include_once 'views/head.php';
             </ul>
           </div>
           <div class="subscribe">
-            <input type="email" placeholder="ENTER YOUR EMAIL">
+            <input type="email" placeholder="INGRESA TU CORREO">
             <button>SUSCRIBETE</button>
           </div>
         </div>

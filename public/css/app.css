@@ -62,6 +62,57 @@ img {
   position: relative;
 }
 
+/* Este es el CSS DE LA IMAGEN DE LA SECCION DE PREGUNTAS */
+.container5 {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  transition: all 0.3s ease;
+}
+.container5 img:first-child {
+  box-shadow: 0 60px 60px -60px rgba(49, 49, 49, 0.5);
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+}
+.container5 img:last-child {
+  position: absolute;
+  width: 400px;
+  bottom: 0;
+  left: 0;
+  right: -100px;
+  margin: auto;
+  transform: translateY(10%);
+  transition: 0.3s ease;
+  opacity: 0;
+}
+.container5:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+.container5::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 20%,
+    rgba(0, 0, 0, 0.8) 90%
+  );
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.container5:hover::before {
+  opacity: 1;
+}
+.container5:hover img:last-child {
+  opacity: 1;
+  transform: translateY(-10%);
+}
+
+/* Aqui termina la edicion de la imagen de la seccion de preguntas. */
+
 .container2 p {
   text-align: justify;
 }
@@ -173,10 +224,13 @@ ul.devided > li:last-child {
 
 .mid-header {
   display: flex;
+  padding: 10px 20px;
   align-items: center;
   justify-content: space-between;
-  height: 90px;
+  height: 110px;
   background-color: var(--main-bg-color);
+}
+.mid-header .logo {
 }
 
 .logo {

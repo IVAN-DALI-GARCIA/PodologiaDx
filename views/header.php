@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php
-include_once 'views/head.php';
-?>
-
-
 <header>
   <div class="mobile-menu bg-second">
     <a href="#" class="mb-logo">PodologíaDx@shopMedic.com</a>
@@ -59,7 +52,7 @@ include_once 'views/head.php';
 
     <div class="bg-main">
       <div class="mid-header container">
-        <a href="/" class="logo"><img src="./public/images/PodologiaDx-100x100.png" alt="" width="80px">PodologíaDx.com</a>
+        <a href="/" class="logo"><img src="./public/images/PodologiaDx-100x100.png" alt="Logotipo de PodologíaDx.com" width="90px">PodologíaDx.com</a>
         <div class="search">
           <input type="text" placeholder="Search">
           <i class='bx bx-search-alt'></i>
@@ -85,10 +78,10 @@ include_once 'views/head.php';
                   <div class="box">
                     <h3>TRATAMIENTOS</h3>
                     <ul>
-                      <li><a href="#">Dietas y alimentos (Supelmentos)</a></li>
+                      <li><a href="#">DIETA Y ALIMENTOS (Supelmentos)</a></li>
                       <li><a href="#">PLANTILLAS</a></li>
                       <li><a href="#">PROTESIS</a></li>
-                      <li><a href="#">Médicina Especializada</a></li>
+                      <li><a href="#">MÉDICINA ESPECIALIZADA</a></li>
                     </ul>
                   </div>
                 </div>
@@ -109,7 +102,7 @@ include_once 'views/head.php';
                     <ul>
                       <li><a href="#">CALLO Y DUREZAS</a></li>
                       <li><a href="#">CAÍDA DEL ARCO</a></li>
-                      <li><a href="#">JUENATES</a></li>
+                      <li><a href="#">DEFORMIDADES OSEAS</a></li>
                       <li><a href="#">REUMATISMO</a></li>
                     </ul>
                   </div>
@@ -118,10 +111,10 @@ include_once 'views/head.php';
                   <div class="box">
                     <h3>INSUMOS / SERVICIOS</h3>
                     <ul>
-                      <li><a href="#">Insturmentos Medicos(Operacione)</a></li>
-                      <li><a href="#">Analisis clinicos </a></li>
-                      <li><a href="#">Estudios Especializados</a></li>
-                      <li><a href="#">Médicina Especializada</a></li>
+                      <li><a href="#">INSTRUMENTOS MEDICOS(Operaciones)</a></li>
+                      <li><a href="#">ANALISIS CLINICOS </a></li>
+                      <li><a href="#">ESTUDIOS ESPECIALIZADOS</a></li>
+                      <li><a href="#">MÉDICINA ESPECIALIZADA</a></li>
                     </ul>
                   </div>
                 </div>
@@ -151,18 +144,15 @@ include_once 'views/head.php';
             </div>
           </li>
           <li class="menuHoverColor"><a href="#">PRODUCTOS</a></li>
-          <li class="menuHoverColor"><a href="#">BLOG</a></li>
-          <li class="menuHoverColor"><a href="#">PREGUNTAS</a></li>
+          <li class="menuHoverColor"><a href="blog">BLOG</a></li>
+          <li class="menuHoverColor"><a href="preguntas">PREGUNTAS</a></li>
           <li class="menuHoverColor"><a href="#">CONTACTO</a></li>
-          <li class="menuHoverColor"><a href="#">NOSOTROS</a></li>
-          <li class="menuHoverColor"><a href="#">SUCURSALES</a></li>
-          <li class="menuHoverColor"><a href="#">BOLSA TRABAJO</a></li>
+          <li class="menuHoverColor"><a href="nosotros">NOSOTROS</a></li>
+          <li class="menuHoverColor"><a href="sucursales">SUCURSALES</a></li>
+          <li class="menuHoverColor"><a href="empleos">BOLSA TRABAJO</a></li>
         </ul>
       </div>
     </div>
   </div>
 </header>
 <script src="./public/js/app.js"></script>
-</body>
-
-</html>
