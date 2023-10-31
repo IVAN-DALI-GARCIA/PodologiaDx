@@ -22,8 +22,15 @@ require_once 'views/head.php';
       </div>
       <div class="section-header">
         <h2>CONOCE NUESTRAS SUCURSALES </h2>
+        <div class="container5">
+          <img src="./public/images/PodologiaDx-100x100.png" alt="logotipo de cuestions">
+          <img src="./public/images/ilustracion-plana-ubicacion_120816-2245-removebg-preview.png" alt="logotipo de cuestions">
+        </div>
       </div>
       <div class="container2">
+        <h2>
+          Conoce Nuestras Sucursales
+        </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus mollitia nihil accusamus reiciendis nemo, nostrum consequuntur eaque recusandae cum adipisci dolorum autem architecto odio distinctio tempore consequatur, perferendis odit deserunt
           ut laboriosam iure! At voluptates similique magni repellat. Atque, dolores dolorum sapiente repellat eius perferendis earum aliquam non veniam rem quaerat consequatur, adipisci perspiciatis ipsam nesciunt? Voluptates doloremque eveniet

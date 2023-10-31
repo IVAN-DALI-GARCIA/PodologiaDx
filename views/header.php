@@ -144,12 +144,12 @@
             </div>
           </li>
           <li class="menuHoverColor"><a href="#">PRODUCTOS</a></li>
-          <li class="menuHoverColor"><a href="blog">BLOG</a></li>
-          <li class="menuHoverColor"><a href="preguntas">PREGUNTAS</a></li>
+          <li class="menuHoverColor"><a href="<?php echo constant('URL'); ?>blog">BLOG</a></li>
+          <li class="menuHoverColor"><a href="<?php echo constant('URL'); ?>preguntas">PREGUNTAS</a></li>
           <li class="menuHoverColor"><a href="#">CONTACTO</a></li>
-          <li class="menuHoverColor"><a href="nosotros">NOSOTROS</a></li>
-          <li class="menuHoverColor"><a href="sucursales">SUCURSALES</a></li>
-          <li class="menuHoverColor"><a href="empleos">BOLSA TRABAJO</a></li>
+          <li class="menuHoverColor"><a href="<?php echo constant('URL'); ?>nosotros">NOSOTROS</a></li>
+          <li class="menuHoverColor"><a href="<?php echo constant('URL'); ?>sucursales">SUCURSALES</a></li>
+          <li class="menuHoverColor"><a href="<?php echo constant('URL'); ?>empleos">BOLSA TRABAJO</a></li>
         </ul>
       </div>
     </div>

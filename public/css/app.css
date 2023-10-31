@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 :root {
   --main-bg-color: #fff;
   --second-bg-color: #cbf5df;
@@ -1215,6 +1216,7 @@ textarea {
   position: fixed;
   bottom: 20px;
   left: 20px;
+  z-index: 50;
 }
 
 .redes2 a,

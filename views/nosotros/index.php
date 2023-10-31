@@ -23,9 +23,12 @@ include_once 'views/head.php';
       </div>
       <div class="container5">
         <img src="./public/images/PodologiaDx-100x100.png" alt="logotipo de cuestions">
-        <img src="./public/images/b2ap3_amp_empresa-public_20220411-230454_1-removebg-preview.png" alt="logotipo de cuestions">
+        <img src="./public/images/Vector-History-removebg-preview.png" alt="logotipo de cuestions">
       </div>
       <div class="container2">
+        <h2>
+          Conoce Nuestra Historia
+        </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus mollitia nihil accusamus reiciendis nemo, nostrum consequuntur eaque recusandae cum adipisci dolorum autem architecto odio distinctio tempore consequatur, perferendis odit deserunt
           ut laboriosam iure! At voluptates similique magni repellat. Atque, dolores dolorum sapiente repellat eius perferendis earum aliquam non veniam rem quaerat consequatur, adipisci perspiciatis ipsam nesciunt? Voluptates doloremque eveniet

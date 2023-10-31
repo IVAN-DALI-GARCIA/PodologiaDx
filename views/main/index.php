@@ -12,7 +12,7 @@ require_once 'views/head.php';
   require 'views/preloader.php';
   ?>
 
-  <div class="hero">
+  <div class="hero"> <!--Slider de Imagnes  -->
     <div class="slider">
       <div class="container">
 
@@ -118,7 +118,8 @@ require_once 'views/head.php';
       </button>
     </div>
   </div>
-  <div class="promotion">
+
+  <div class="promotion"><!--//¡SOLO EN SUCURSAL!  -->
     <div class="section-header">
       <h2>¡SOLO EN SUCURSAL!</h2>
     </div>
@@ -180,7 +181,7 @@ require_once 'views/head.php';
     </div>
   </div>
 
-  <div class="section">
+  <div class="section"> <!-- //PROMOCIONES SKU'S -->
     <div class="container">
       <div class="section-header">
         <h2>PROMOCIONES SKU'S</h2>
@@ -219,7 +220,7 @@ require_once 'views/head.php';
     </div>
   </div>
 
-  <div class="bg-second">
+  <div class="bg-second"><!-- // un ¡SOLO Producto. -->
     <div class="section container">
       <div class="row">
         <div class="col-4 col-md-4">
@@ -240,7 +241,7 @@ require_once 'views/head.php';
     </div>
   </div>
 
-  <div class="section">
+  <div class="section"><!-- //MAS VENDIDO -->
     <div class="container">
       <div class="section-header">
         <h2>MAS VENDIDOS</h2>
@@ -279,7 +280,7 @@ require_once 'views/head.php';
     </div>
   </div>
 
-  <div class="section">
+  <div class="section"> <!-- //BLOG & TIP'S -->
     <div class="container">
       <div class="section-header">
         <h2>BLOG & TIP'S </h2>
@@ -295,7 +296,7 @@ require_once 'views/head.php';
           <div class="blog-preview">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
           </div>
-          <button class="btn-flat btn-hover" role="link" onclick="window.location='./blog_tips.php'">LEER MAS</button>
+          <button class="btn-flat btn-hover" role="link" onclick="window.location='blog'">LEER MAS</button>
         </div>
       </div>
       <div class="blog row-revere">
@@ -309,7 +310,7 @@ require_once 'views/head.php';
           <div class="blog-preview">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
           </div>
-          <button class="btn-flat btn-hover" role="link" onclick="window.location='./blog_tips.php'">LEER MAS</button>
+          <button class="btn-flat btn-hover" role="link" onclick="window.location='blog'">LEER MAS</button>
         </div>
       </div>
       <div class="blog">
@@ -323,7 +324,7 @@ require_once 'views/head.php';
           <div class="blog-preview">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
           </div>
-          <button class="btn-flat btn-hover" role="link" onclick="window.location='./blog_tips.php'">LEER MAS</button>
+          <button class="btn-flat btn-hover" role="link" onclick="window.location='blog'">LEER MAS</button>
         </div>
       </div>
       <div class="section-footer">
@@ -331,7 +332,8 @@ require_once 'views/head.php';
       </div>
     </div>
   </div>
-  <div class="bg-second">
+
+  <div class="bg-second"><!-- // Redes Sociles -->
     <div class="container3">
       <input type="checkbox" id="btn-mas">
       <div class="redes">
@@ -345,7 +347,8 @@ require_once 'views/head.php';
       </div>
     </div>
   </div>
-  <div class="container4">
+
+  <div class="container4"> <!-- // ChatBox -->
     <input type="checkbox" id="btn-mas2">
     <div class="modal">
       <div class="contenedor">

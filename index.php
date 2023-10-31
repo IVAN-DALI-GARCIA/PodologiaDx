@@ -1,9 +1,10 @@
-<?php 
+<?php
+require_once 'libs/database.php';
 require_once 'libs/controller.php';
 require_once 'libs/view.php';
 require_once 'libs/model.php';
 require_once 'libs/app.php';
 
-$app = new App();
+require_once 'config/config.php'; //This is the file that contains the constants
 
-?>
+$app = new App();
