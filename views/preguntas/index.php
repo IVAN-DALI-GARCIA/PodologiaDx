@@ -141,7 +141,7 @@ include_once 'views/head.php';
         </div>
         <div class="blog-info">
           <div class="blog-title">
-            APOYOS Y BECAS.
+            APOYOS Y BECAS
           </div>
           <div class="blog-preview2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat. Lorem ipsum
@@ -156,7 +156,7 @@ include_once 'views/head.php';
         </div>
         <div class="blog-info">
           <div class="blog-title">
-            ESTUDIOS CLINICOS .
+            ESTUDIOS CLINICOS Y DE LABORATORIO
           </div>
           <div class="blog-preview2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat. Lorem ipsum
@@ -186,7 +186,7 @@ include_once 'views/head.php';
         </div>
         <div class="blog-info">
           <div class="blog-title">
-            TRATAMIENTOS ESPECIALIZADOS.
+            TRATAMIENTOS ESPECIALIZADOS PARA EMPRESAS
           </div>
           <div class="blog-preview2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat. Lorem ipsum
@@ -212,7 +212,7 @@ include_once 'views/head.php';
       </div>
       <div class="container2">
         <div class="blog-title">
-          VIDEO CORPORATIVO.
+          <h2> VIDEO CORPORATIVO</h2>
         </div>
         <iframe src="https://www.youtube.com/embed/1YlSdVotRCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -272,10 +272,14 @@ include_once 'views/head.php';
     </div>
   </div>
 
+  <!-- // ChatBox -->
+  <?php require_once 'views/chatbot.php' ?>
 
-  <?php
-  include_once 'views/footer.php';
-  ?>
+  <!-- Se genera la carga del FOOTER. -->
+  <?php require 'views/footer.php' ?>
+
+  <!-- Se genera la carga de los SCRIPTS. -->
+  <?php require 'views/scripts.php' ?>
 
 </body>
 

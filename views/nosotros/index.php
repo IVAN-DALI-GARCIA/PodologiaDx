@@ -395,12 +395,14 @@ include_once 'views/head.php';
     </div>
   </div>
 
+  <!-- // ChatBox -->
+  <?php require_once 'views/chatbot.php' ?>
 
-  <?php
-  include_once 'views/footer.php';
-  ?>
+  <!-- Se genera la carga del FOOTER. -->
+  <?php require 'views/footer.php' ?>
 
-
+  <!-- Se genera la carga de los SCRIPTS. -->
+  <?php require 'views/scripts.php' ?>
 
 </body>
 

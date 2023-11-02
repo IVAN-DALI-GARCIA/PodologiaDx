@@ -1,5 +1,7 @@
 <?php
 define('URL', 'http://localhost/MVC/');
+// define('URL', 'https://podologiadx.org/');
+
 
 define('HOST', 'localhost');
 define('DB', '');

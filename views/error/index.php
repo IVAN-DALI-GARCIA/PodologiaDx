@@ -42,9 +42,14 @@
 
   </div>
 
+  <!-- // ChatBox -->
+  <?php require_once 'views/chatbot.php' ?>
 
-
+  <!-- Se genera la carga del FOOTER. -->
   <?php require 'views/footer.php' ?>
+
+  <!-- Se genera la carga de los SCRIPTS. -->
+  <?php require 'views/scripts.php' ?>
 </body>
 
 </html>

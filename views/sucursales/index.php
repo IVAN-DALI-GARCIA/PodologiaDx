@@ -481,38 +481,15 @@ require_once 'views/head.php';
       </div>
     </div>
   </div>
-  <div class="container4">
-    <input type="checkbox" id="btn-mas2">
-    <div class="modal">
-      <div class="contenedor">
-        <header>Chat en linea</header>
-        <label for="btn-modal">X</label>
-        <div class="contenido">
-          <img src="./public/images/img7.png" alt="">
-          <h3>
-            hola buenas tarde!! Como le va...!!! ¿podemos ayudarle en algo?
-          </h3>
-          <p>
-            <!-- Agregar un mensaje -->
-          </p>
-          <textarea name="" id="" cols="30%" rows="1" placeholder="Aqui tu mensaje"></textarea>
-        </div>
-      </div>
-    </div>
-    <div class="btn-mas2">
-      <label for="btn-mas2" class="fa fa-plus"></label>
-    </div>
-  </div>
 
-
-
+  <!-- // ChatBox -->
+  <?php require_once 'views/chatbot.php' ?>
 
   <!-- Se genera la carga del FOOTER. -->
   <?php require 'views/footer.php' ?>
 
-  <script src="./public/js/app.js"></script>
-  <script src="./public/js/index.js"></script>
-  <script src="./public/js/preloader.js"></script>
+  <!-- Se genera la carga de los SCRIPTS. -->
+  <?php require 'views/scripts.php' ?>
 </body>
 
 </html>

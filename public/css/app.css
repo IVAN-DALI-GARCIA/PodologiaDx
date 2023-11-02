@@ -231,8 +231,6 @@ ul.devided > li:last-child {
   height: 110px;
   background-color: var(--main-bg-color);
 }
-.mid-header .logo {
-}
 
 .logo {
   font-size: 40px;
