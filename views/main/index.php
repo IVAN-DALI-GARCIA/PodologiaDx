@@ -120,9 +120,23 @@ require_once 'views/head.php';
   </div>
 
   <div class="promotion"><!--//¡SOLO EN SUCURSAL!  -->
-    <div class="section-header">
-      <h2>¡SOLO EN SUCURSAL!</h2>
+    <div class="content"> <!-- Este es el texto animado  -->
+      <div class="content__container">
+        <p class="content__container__text">
+          SOLO,
+        </p>
+
+        <ul class="content__container__list">
+          <li class="content__container__list__item">DESCUENTOS !</li>
+          <li class="content__container__list__item">NUEVOS !</li>
+          <li class="content__container__list__item">ULTIMOS !</li>
+          <li class="content__container__list__item">APROVECHA !</li>
+        </ul>
+      </div>
     </div>
+    <!-- <div class="section-header">
+      <h2>¡SOLO EN SUCURSAL!</h2>
+    </div> -->
     <div class="row">
       <div class="col-4 col-md-12 col-sm-12">
         <div class="promotion-box">
@@ -183,9 +197,23 @@ require_once 'views/head.php';
 
   <div class="section"> <!-- //PROMOCIONES SKU'S -->
     <div class="container">
-      <div class="section-header">
-        <h2>PROMOCIONES SKU'S</h2>
+      <div class="content content2"> <!-- Este es el texto animado  -->
+        <div class="content__container">
+          <p class="content__container__text">
+            SOLO,
+          </p>
+
+          <ul class="content__container__list">
+            <li class="content__container__list__item">ULTIMOS !</li>
+            <li class="content__container__list__item">OFERTAS !</li>
+            <li class="content__container__list__item">DESCUENTOS !</li>
+            <li class="content__container__list__item">APROVECHA !</li>
+          </ul>
+        </div>
       </div>
+      <!-- <div class="section-header">
+        <h2>PROMOCIONES SKU'S</h2>
+      </div> -->
       <div class="row" id="latest-products">
         <div class="col-3 col-md-6 col-sm-12">
           <div class="product-card">
@@ -243,9 +271,23 @@ require_once 'views/head.php';
 
   <div class="section"><!-- //MAS VENDIDO -->
     <div class="container">
-      <div class="section-header">
-        <h2>MAS VENDIDOS</h2>
+      <div class="content content2"> <!-- Este es el texto animado  -->
+        <div class="content__container">
+          <p class="content__container__text">
+            SOLO,
+          </p>
+
+          <ul class="content__container__list">
+            <li class="content__container__list__item">DESCUENTOS !</li>
+            <li class="content__container__list__item">NUEVOS !</li>
+            <li class="content__container__list__item">ULTIMOS !</li>
+            <li class="content__container__list__item">APROVECHA !</li>
+          </ul>
+        </div>
       </div>
+      <!-- <div class="section-header">
+        <h2>MAS VENDIDOS</h2>
+      </div> -->
       <div class="row" id="best-products">
         <div class="col-3 col-md-6 col-sm-12">
           <div class="product-card">
@@ -282,9 +324,23 @@ require_once 'views/head.php';
 
   <div class="section"> <!-- //BLOG & TIP'S -->
     <div class="container">
-      <div class="section-header">
-        <h2>BLOG & TIP'S </h2>
+      <div class="content content2"> <!-- Este es el texto animado  -->
+        <div class="content__container">
+          <p class="content__container__text">
+            BLOG,
+          </p>
+
+          <ul class="content__container__list">
+            <li class="content__container__list__item">TIP'S !</li>
+            <li class="content__container__list__item">SALUD !</li>
+            <li class="content__container__list__item">VIDA !</li>
+            <li class="content__container__list__item">BIENESTAR !</li>
+          </ul>
+        </div>
       </div>
+      <!-- <div class="section-header">
+        <h2>BLOG & TIP'S </h2>
+      </div> -->
       <div class="blog">
         <div class="blog-img">
           <img src="./public/images/N_2016.10_articulo_nutricionydeporte_WEB.jpg" alt="Imagenes de pixabayderechos reservados de la pagina comida-sana-y-ejercicio.jpg">
